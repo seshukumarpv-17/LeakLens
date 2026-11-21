@@ -1,0 +1,20 @@
+{
+  "name": "LeakLens – Photo Privacy Checker",
+  "short_name": "LeakLens",
+  "description": "The Friend Who Checks Your Photo Before the World Does! Finds and fixes privacy leaks in photos before you post. Runs on your device.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b1f33",
+  "theme_color": "#0b1f33",
+  "categories": ["education", "photo", "utilities"],
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "share_target": {
+    "action": "./index.html",
+    "method": "GET"
+  }
+}
